@@ -4,7 +4,7 @@ USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
     echo "prinnt run this script with root user"
-fi
+    exit 1
 
 echo "installing nginx"
 
