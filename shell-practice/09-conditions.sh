@@ -4,5 +4,5 @@
 NUMBER=20
 
 if [ $NUMBER -gt 20 ]; then
-    ehco "given $NUMBER is greater than 20"
+    echo "given $NUMBER is greater than 20"
 fi
