@@ -1,5 +1,11 @@
 #!/bin/bash
 
-TIMESTAMP=$(date)
+START_TIME=$(date)
 
-echo "script starttime $TIMESTAMP"
+echo "script starttime $START_TIME"
+
+sleep 10
+
+END_TIME=$(date)
+
+echo "script endtime $END_TIME"
